@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Circular;
+    src: url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.eot);
+    src: url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.eot) format("embedded-opentype"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.woff2) format("woff2"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.woff) format("woff"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.ttf) format("truetype"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbook.svg#linetocircularbook) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: Circular;
+    src: url(/https://2016.hackatbrown.orgstatic/fonts/Circular/linetocircularbold.eot);
+    src: url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbold.eot) format("embedded-opentype"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbold.woff2) format("woff2"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbold.woff) format("woff"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbold.ttf) format("truetype"), url(https://2016.hackatbrown.org/static/fonts/Circular/linetocircularbold.svg#linetocircularbold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+html, body {
+	background-color: #292249 !important;
+}
+
+.wufoo {
+	font-family: Circular, sans-serif !important;
+}
+
+#container {
+	border: none !important;
+	box-shadow: 3px 3px 0px rgba(0,0,0,0.5) !important;
+}
+
+#header h2, form li.section h3 {
+	font-weight: bold !important;
+}
+
+/* tan: FFF4D4 */
+
+form li.focused {
+	background-color: transparent !important;
+}
+
+#logo {
+	background-color: #2FC3DA !important;
+	/*background-image: url(https://2016.hackatbrown.org/static/img/claw-logomark.svg);
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: auto 70%;*/
+}
+
+#logo {
+	position: relative;
+}
+#logo:after {
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	bottom: 6px;
+	width: 50px;
+	content: " ";
+	background-image: url(https://2016.hackatbrown.org/static/img/claw-logomark.svg);
+	background-position: right;
+	background-repeat: no-repeat;
+}
+
+input.text, textarea {
+	border: none !important;
+	padding: 7px !important;
+	box-sizing: border-box !important;
+	background-color: #FFF4D4 !important;
+	background-image: none !important;
+	border-radius: 5px !important;
+	font-family: Circular, sans-serif !important;
+}
+
+input.text:focus, textarea:focus {
+	outline: none;
+	background-color: #FFC522 !important;
+}
+
+#saveForm {
+	appearance: none;
+	border-radius: 0;
+	border: none;
+	background-color: #F44747;
+	color: white;
+	font-size: x-large;
+	font-family: Circular, sans-serif;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-transform: lowercase;
+}
+
+#saveForm:hover {
+	opacity: 0.8;
+}
